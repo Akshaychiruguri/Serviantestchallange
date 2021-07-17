@@ -9,8 +9,8 @@ terraform {
 
     # Common for security scripts
     region         = "us-east-1"
-    bucket         = "techautomationchallenge-s3-terraform-remote-state"
-    dynamodb_table = "techautomationchallenge-dynamodb-terraform-remote-state-lock"
+    bucket         = "techautomationchallenge1-s3-terraform-remote-state"
+    dynamodb_table = "techautomationchallenge1-dynamodb-terraform-remote-state-lock"
     encrypt        = true
     profile        = "dev-profile-terraform"
   }
