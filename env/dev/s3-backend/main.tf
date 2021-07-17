@@ -1,6 +1,6 @@
 locals {
-  bucketName    = "techautomationchallenge-s3-terraform-remote-state"
-  lockTableName = "techautomationchallenge-dynamodb-terraform-remote-state-lock"
+  bucketName    = "techautomationchallenge1-s3-terraform-remote-state"
+  lockTableName = "techautomationchallenge1-dynamodb-terraform-remote-state-lock"
 }
 
 #create a s3 resource for the provided aws region to store the state file.
