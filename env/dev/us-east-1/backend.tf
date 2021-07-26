@@ -5,11 +5,11 @@
 terraform {
   backend "s3" {
     # PER ENV: adapt these when copying!
-    key = "env/dev/ap-southeast-2/state.tfstate"
+    key = "env/dev/us-east-1/state.tfstate"
 
 
     # Common for security scripts
-    region         = "ap-southeast-2"
+    region         = "us-east-1"
     bucket         = "techautomationchallenge1-s3-terraform-remote-state"
     dynamodb_table = "techautomationchallenge1-dynamodb-terraform-remote-state-lock"
     encrypt        = true
